@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+/*Header*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E948A;
+    align-items: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header > .nav{
+    display: flex;
+    list-style: none;
+    padding: 0px 60px 0px 0px;
+}
+
+.header > .nav > li{
+    padding: 0px 40px 0px 0px;
+}
+
+.header > .nav > li > a{
+    text-decoration: none;
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+#img-header{
+    padding: 15px 0px 15px 20px;
+}
+
+/*Section-1*/
+
+.section-1{
+    display: flex;
+    padding: 70px 0px 80px 80px;
+}
+
+#h1-section-1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 69px;
+    color: #FF4081;
+}
+
+#p1-section-1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #555555;
+    padding: 0px 60px 0px 0px;
+}
+
+#p2-section-1{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    box-sizing: border-box;
+    padding: 5px 7px 5px 7px;
+    width: 250px;
+}
+
+#img-section-1{
+    padding: 80px 110px 0px 100px;
+}
+
+/*Section-2*/
+
+.section-2{
+    display: flex;
+    background-color: #F6F6F6;
+    padding: 0px 0px 90px 0px;
+}
+
+.h3-section-2{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    padding: 70px 90px 0px 0px;
+}
+
+.p1-section-2{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding: 0px 350px 30px 0px;
+}
+
+.p2-section-2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2E948A;
+    border-radius: 62px;
+    padding: 7px 12px 7px 12px;
+    width: 250px;
+}
+
+.img-section-2{
+    padding: 70px 110px 0px 90px;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    background-color: #419488;
+    justify-content: space-between;
+    padding: 40px 150px 20px 80px;
+    align-items: center;
+}
+
+.footer > ul{
+    list-style: none;
+}
+
+.footer > ul >li{
+    padding: 0px 0px 20px 0px;
+}
+
+.footer > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.botao-footer{
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    width: 500px;
+    padding: 4px 30px 4px 30px;
+}

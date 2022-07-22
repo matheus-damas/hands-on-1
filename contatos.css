@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+/*Header*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E948A;
+    align-items: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header > .nav{
+    display: flex;
+    list-style: none;
+    padding: 0px 60px 0px 0px;
+}
+
+.header > .nav > li{
+    padding: 0px 40px 0px 0px;
+}
+
+.header > .nav > li > a{
+    text-decoration: none;
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+#img-header{
+    padding: 15px 0px 15px 20px;
+}
+
+/*Section-1*/
+
+#h1-section-1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+    padding: 50px 0px 0px 90px;
+}
+
+/*Section-2*/
+
+.flex{
+    display: flex;
+}
+
+.sec-contato{
+    display: flex;
+}
+
+.sec-contato form {
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 30px 0px 90px;
+}
+
+.sec-contato form label {
+    font-size: 40px;
+    font-weight: 700;
+    color: #686868;
+    align-self: flex-start;
+    margin: 0px 0px 0px 0px;
+}
+
+.sec-contato form input {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 400px;
+    padding: 15px 30px 15px 30px;
+    margin: 0px 0px 20px 0px;
+}
+
+.sec-contato form textarea {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 400px;
+    padding: 15px 30px 100px 30px;
+    margin: 0px 0px 20px 0px;
+    resize: none;
+}
+
+.sec-contato form #submit {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF4081;
+    border-radius: 50px;
+    width: 170px;
+    align-self: flex-start;
+}
+
+#img-form{
+    align-items: center;
+    padding: 0px 0px 90px 120px
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    background-color: #419488;
+    justify-content: space-between;
+    padding: 40px 150px 20px 80px;
+    align-items: center;
+}
+
+.footer > ul{
+    list-style: none;
+}
+
+.footer > ul >li{
+    padding: 0px 0px 20px 0px;
+}
+
+.footer > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.botao-footer{
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    width: 500px;
+    padding: 4px 30px 4px 30px;
+}
